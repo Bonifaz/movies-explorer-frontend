@@ -1,0 +1,53 @@
+.register{
+    max-width: 1280px;
+    margin: 0;
+    background-color: #202020;
+}
+
+.register__container{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    padding: 70px 0 0px 0;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.register__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 35px 0 40px 0;
+    letter-spacing: 0.05em;
+}
+
+.register__inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__input{
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #2F2F2F;
+    margin: 10px 0 20px 0;
+    outline: none;
+    border: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.register__input-label-text{
+    font-size: 10px;
+    line-height: 12px;   
+    color: #8B8B8B;
+    margin: 0;
+}
+
+::placeholder {
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }

@@ -1,0 +1,23 @@
+
+
+@import url(./vendor/fonts/Inter/inter.css);
+
+@import url(./blocks/page.css);
+
+@import url(./blocks/header.css);
+
+@import url(./blocks/navigation.css);
+
+@import url(./blocks/about.css);
+
+@import url(./blocks/technologys.css);
+
+@import url(./blocks/student.css);
+
+@import url(./blocks/portfolio.css);
+
+@import url(./blocks/footer.css);
+
+@import url(./blocks/error.css);
+
+@import url(./blocks/register.css);

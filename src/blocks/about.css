@@ -1,0 +1,167 @@
+.about{
+    background-color: #000000;
+    max-width: 1280px;
+    margin: 0;
+    padding-top: 110px;
+}
+
+.about__container{
+    width: 89%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title{
+    margin: 0 0 23px 0;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.about__line{
+    border-bottom: 1px solid #DADADA;
+    width: 100%;
+    margin: 0 auto 70px auto;
+}
+
+.about__info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 110px;
+}
+
+.about__info{
+    width: 46%;
+}
+
+.about__subtitle{
+    margin: 0 0 26px 0;
+}
+
+.about__text{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about__table{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 110px;
+}
+
+.about__table-item-left{
+    width: 20%;
+}
+
+.about__table-title-left{
+    background-color: #3DDC84;
+    color: black;
+    text-align: center;
+    padding: 9px 0 9px 0;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.about__table-text-left{
+    text-align: center;
+    margin: 0;
+}
+
+.about__table-item-right{
+    width: 80%;
+    
+}
+
+.about__table-title-right{
+    margin: 0;
+    background-color: #303030;
+    padding: 9px 0 9px 0;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.about__table-text-right{
+    margin: 0;
+}
+
+@media screen and (max-width: 1280px){
+    .about{
+        padding-top: 90px;
+        max-width: 1279px;
+    }
+
+    .about__container{
+        width: 87%;
+    }
+
+    .about__info-container{
+        margin-bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .about{
+        max-width: 767px;
+        padding-top: 69px;
+    }
+    
+    .about__container{
+        width: 88.7%;
+    }
+
+    .about__title{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 27px;
+    }
+
+    .about__info-container{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .about__info{
+        width: 100%;
+    }
+
+    .about__subtitle{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 16px;
+        letter-spacing: -0.01em;
+    }
+
+    .about__line{
+        margin-bottom: 60px;
+    }
+
+    .about__text{
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 58px;
+    }
+
+    .about__table-item-left{
+        width: 35%;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about__table-item-right{
+        width: 65%;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about__table{
+        margin-top: 3px;
+    }
+}

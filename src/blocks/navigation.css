@@ -1,0 +1,40 @@
+.navigation{
+    max-width: 1280px;
+}
+
+.navigation__container{
+    background-color: #272727;
+    width: 100%;
+}
+
+.navigation__items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 276px;
+    margin: auto;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 25px 0 25px 0;
+}
+
+.navigation__items:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+    .navigation{
+        max-width: 767px;
+    }
+
+    .navigation__items{
+        width: 67%;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    
+}
