@@ -11,7 +11,7 @@ export default class Profile extends React.Component{
                     <div className="profile__inputs">
                         <div className="profile__input-container profile__input-container-name">
                             <p className="profile__input-label-text">Имя</p>
-                            <input className="profile__name-input" type="text" id="name-prof" name="name" placeholder="Виталий">
+                            <input className="profile__name-input" type="text" id="name-prof" name="name" placeholder="Виталий"/>
                             <label className="profile__name-input-label" for="name"></label>
                         </div>
 
@@ -19,7 +19,7 @@ export default class Profile extends React.Component{
                         
                         <div className="profile__input-container">
                             <p className="profile__input-label-text">E-mail</p>
-                            <input className="profile__email-input" type="email" id="email" name="email-prof" placeholder="pochta@yandex.ru">
+                            <input className="profile__email-input" type="email" id="email" name="email-prof" placeholder="pochta@yandex.ru"/>
                             <label className="profile__email-input-label" for="email"></label>
                         </div> 
                     </div>

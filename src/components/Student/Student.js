@@ -1,4 +1,5 @@
 import React from 'react';
+import photo from '../../images/2tBVR3XgKho.jpg'
 
 export default class Student extends React.Component{
     render(){
@@ -22,7 +23,7 @@ export default class Student extends React.Component{
                         </div>
 
                         <div className="student__photo-container">
-                            <img className="student__photo" src="./images/2tBVR3XgKho.jpg" alt="Фотография">
+                            <img className="student__photo" src={photo} alt="Фотография"/>
                         </div>
                         
                     </div>

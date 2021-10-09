@@ -10,7 +10,6 @@
     width: 31%;
     padding: 70px 0 70px 0;
     margin: auto;
-    border: 1px solid red;
 }
 
 .register__title{
@@ -30,7 +29,7 @@
 .register__input{
     padding: 15px 15px;
     border-radius: 8px;
-    background-color: #2F2F2F;
+    background-color: #2F2F2F !important;
     margin: 10px 0 20px 0;
     outline: none;
     border: transparent;
@@ -38,6 +37,16 @@
     line-height: 16px;
     color: #FFFFFF;
 }
+
+.register__email input, .register__name input, .register__password input{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.register__name-hidden{
+    display: none;
+}
+
 
 .register__input-label-text{
     font-size: 10px;
