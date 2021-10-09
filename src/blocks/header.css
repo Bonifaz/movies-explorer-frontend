@@ -1,122 +1,61 @@
 .header{
     max-width: 1280px;
-    background-color: #073042;
+    margin: 0;
+    background-color: #202020;
 }
 
 .header__container{
-    margin: 0 auto 0 auto;
-    display: flex;
-    flex-direction: column;
+    padding-top: 17px;
     width: 89%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header__func{
-    width: 100%;
+.header__films-container{
     display: flex;
-    flex-direction: row;
+    margin: 0 0 0 49px;
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 18px;
+    width: 19%;
     justify-content: space-between;
-    margin: auto;
+    
 }
 
 .header__logo{
-    margin: 18px 0 18px 0;
+    width: 38px;
 }
 
-.header__sign-reg-container{
+.header__account{
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+}
+
+.header__account-container{
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
+    margin: 0;
+    width: 8%;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header__register-button:hover{
+.header__account-image{
+    width: 10px;
+    padding: 7.5px 7.75px;
+    border-radius: 50px;
+    background-color: #313131;
+}
+
+.header__films-list-item{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.header__films-list-item:hover{
     cursor: pointer;
-}
-
-.header__signin-button{
-    margin: 21px 0 21px 30px;
-    padding: 8px 20px 8px 20px;
-    background-color: #3DDC84;
-    border-radius: 3px;
-    border: none; 
-    outline: none;
-}
-
-.header__signin-button:hover{
-    cursor: pointer;
-}
-
-.header__head{
-    background-image: url(../images/pic__COLOR_landing-logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 39%;
-    display: flex;
-}
-
-.header__title{
-    width: 64%;
-    font-size: 50px;
-    line-height: 58px;
-    text-align: center;
-    font-weight: 400;
-    margin: 184px auto 224px auto;
-}
-
-@media screen and (max-width: 1280px){
-    .header{
-        max-width: 1279px;
-    }
-
-    .header__container{
-        width: 92.1%; 
-    }
-
-    .header__title{
-        width: 96.9%;
-        margin: 326px auto 342px auto;
-    }
-
-    .header__head{
-        background-position-y: 49%;
-    }
-}
-
-@media screen and (max-width: 767px){
-    .header{
-        max-width: 767px;
-    }
-
-    .header__container{
-        width: 91%;
-    }
-
-    .header__title{
-        width: 100%;
-        font-size: 31px;
-        line-height: 39px;
-        letter-spacing: -0.03em;
-        margin: 207px auto 246px auto;
-    }
-
-    .header__head{
-        background-size: 85%;
-        background-position-y: 43%;
-    }
-
-    .header__register-button{
-        font-size: 10px;
-        line-height: 16px;
-    }
-
-    .header__signin-button{
-        margin-left: 14px;
-        padding: 5px 9px 5px 9px;
-        background-color: #3DDC84;
-        border-radius: 3px;
-        border: none; 
-        outline: none;
-    }
 }

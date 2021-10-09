@@ -4,7 +4,7 @@
 
 @import url(./blocks/page.css);
 
-@import url(./blocks/header.css);
+@import url(./blocks/header-landing.css);
 
 @import url(./blocks/navigation.css);
 
@@ -21,3 +21,9 @@
 @import url(./blocks/error.css);
 
 @import url(./blocks/register.css);
+
+@import url(./blocks/login.css);
+
+@import url(./blocks/profile.css);
+
+@import url(./blocks/header.css);
