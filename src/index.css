@@ -1,29 +1,25 @@
-
+@import url(./components/About/about.css);
+@import url(./components/Error/error.css);
+@import url(./components/Technologys/technologys.css);
+@import url(./components/Portfolio/portfolio.css);
+@import url(./components/Student/student.css);
+@import url(./components/Footer/footer.css);
+@import url(./components/Profile/profile.css);
+@import url(./components/Header/header.css);
+@import url(./components/Login/login.css);
+@import url(./components/Register/register.css);
+@import url(./components/HeaderLanding/header-landing.css);
+@import url(./components/Navigation/Navigation.js);
 
 @import url(./vendor/fonts/Inter/inter.css);
 
 @import url(./blocks/page.css);
 
-@import url(./blocks/header-landing.css);
 
-@import url(./blocks/navigation.css);
 
-@import url(./blocks/about.css);
 
-@import url(./blocks/technologys.css);
 
-@import url(./blocks/student.css);
 
-@import url(./blocks/portfolio.css);
 
-@import url(./blocks/footer.css);
 
-@import url(./blocks/error.css);
 
-@import url(./blocks/register.css);
-
-@import url(./blocks/login.css);
-
-@import url(./blocks/profile.css);
-
-@import url(./blocks/header.css);
