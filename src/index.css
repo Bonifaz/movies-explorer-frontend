@@ -25,6 +25,10 @@
   margin: 0 auto 0 auto;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 .page{
   background-color: #202020;

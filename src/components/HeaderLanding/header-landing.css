@@ -81,6 +81,7 @@
 
     .header-landing__head{
         background-position-y: 49%;
+        background-size: 320px;
     }
 }
 
@@ -102,7 +103,7 @@
     }
 
     .header-landing__head{
-        background-size: 85%;
+        background-size: 285px;
         background-position-y: 43%;
     }
 

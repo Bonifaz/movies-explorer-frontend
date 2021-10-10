@@ -7,7 +7,7 @@ export default class Student extends React.Component{
             <section className="student">
                 <div className="student__container">
 
-                    <p className="student__title">Студент</p>
+                    <p id="student" className="student__title">Студент</p>
                     <div className="student__line"></div>
 
                     <div className="student__info-box">

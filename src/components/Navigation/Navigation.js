@@ -6,9 +6,9 @@ export default class Navigation extends React.Component{
             <section className="navigation">
                 <div className="navigation__container">
                     <ul className="navigation__items">
-                        <li>О проекте</li>
-                        <li>Технологии</li>
-                        <li>Студент</li>
+                        <li><a href="#about">О проекте</a></li>
+                        <li><a href="#technologys">Технологии</a></li>
+                        <li><a href="#student">Студент</a></li>
                     </ul>
                 </div>
             </section>

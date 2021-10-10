@@ -5,7 +5,7 @@ export default class searchForm extends React.Component{
         return (
             <section className="search-form-container">
                 <form className="search-form">
-                    <input placeholder="Фильм" className="search-form__input"></input>
+                    <input placeholder="Фильм" className="search-form__input" required></input>
                     <button type="submit" className="search-form__button">
                         Поиск
                     </button>
