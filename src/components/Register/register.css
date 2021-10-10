@@ -1,0 +1,160 @@
+.register{
+    max-width: 1280px;
+    margin: 0;
+    background-color: #202020;
+}
+
+.register__container{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    padding: 70px 0 70px 0;
+    margin: auto;
+}
+
+.register__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 35px 0 40px 0;
+    letter-spacing: 0.05em;
+}
+
+.register__inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__input{
+    padding: 15px 15px;
+    border-radius: 8px;
+    background-color: #2F2F2F !important;
+    margin: 10px 0 20px 0;
+    outline: none;
+    border: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.register__email input, .register__name input, .register__password input{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.register__name-hidden{
+    display: none;
+}
+
+
+.register__input-label-text{
+    font-size: 10px;
+    line-height: 12px;   
+    color: #8B8B8B;
+    margin: 0;
+}
+
+::placeholder {
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.register__password-error{
+    margin: 0;
+    font-size: 10px;
+    line-height: 12px;
+    color: #EE3465;
+    margin: -9px 0 69px 0;
+}
+
+.register__button{
+    width: 100%;
+    padding: 13px 0 13px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 3px;
+    background-color: #4285F4;
+    outline: none;
+    border: none;
+}
+
+.register__button:hover{
+    cursor: pointer;
+}
+
+.register__sign-in-container{
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.register__sign-in-text{
+    color: #8B8B8B;
+    text-align: center;
+    margin: 0;
+}
+ 
+.register__sign-in-button{
+    background-color: transparent;
+    border: none;
+    color: #4285F4;
+}
+
+.register__sign-in-button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1280px){
+    .register{
+        max-width: 1279px;
+    }
+
+    .register__container{
+        width: 51.5%;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .register{
+        max-width: 767px;
+    }
+
+    .register__container{
+        width: 81%;
+        padding: 55px 0 0 0;
+    }
+
+    .register__logo-box{
+        display: flex;
+    }
+
+    .register__logo{
+        margin: auto;
+    }
+
+    .register__title{
+        text-align: center;
+        margin: 50px 0 80px 0;
+    }
+
+    .register__password-error{
+        margin-bottom: 157px;
+    }
+
+    .register__button{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 15px 0 15px 0;
+    }
+
+    .register__sign-in-container{
+        margin: 13px 0 30px 0;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
