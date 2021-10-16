@@ -1,0 +1,58 @@
+@import url(./components/About/about.css);
+@import url(./components/Error/error.css);
+@import url(./components/Technologys/technologys.css);
+@import url(./components/Portfolio/portfolio.css);
+@import url(./components/Student/student.css);
+@import url(./components/Footer/footer.css);
+@import url(./components/Profile/profile.css);
+@import url(./components/Header/header.css);
+@import url(./components/Login/login.css);
+@import url(./components/Register/register.css);
+@import url(./components/HeaderLanding/header-landing.css);
+@import url(./components/Navigation/navigation.css);
+@import url(./components/Menu/menu.css);
+@import url(./components/SearchForm/SearchForm.css);
+@import url(./components/CardList/card-list.css);
+@import url(./components/Card/card.css);
+
+@import url(./vendor/fonts/Inter/inter.css);
+
+.page{
+  font-family: 'Inter', Arial, sans-serif;;
+  overflow: hidden;
+  color: white;
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.page{
+  background-color: #202020;
+}
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+button{
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+a:hover{
+  opacity: 0.7;
+}

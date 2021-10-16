@@ -1,0 +1,124 @@
+.header-landing{
+    max-width: 1280px;
+    background-color: #073042;
+}
+
+.header-landing__container{
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+}
+
+.header-landing__func{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header-landing__logo{
+    margin: 18px 0 18px 0;
+}
+
+.header-landing__sign-reg-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.header-landing__register-button:hover{
+    cursor: pointer;
+}
+
+.header-landing__signin-button{
+    margin: 21px 0 21px 30px;
+    padding: 8px 20px 8px 20px;
+    background-color: #3DDC84;
+    border-radius: 3px;
+    border: none; 
+    outline: none;
+}
+
+.header-landing__signin-button:hover{
+    cursor: pointer;
+}
+
+.header-landing__head{
+    background-image: url(../../images/pic__COLOR_landing-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 39%;
+    display: flex;
+    background-color: #073042;
+}
+
+.header-landing__title{
+    width: 64%;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    font-weight: 400;
+    margin: 184px auto 224px auto;
+}
+
+@media screen and (max-width: 1280px){
+    .header-landing{
+        max-width: 1279px;
+    }
+
+    .header-landing__container{
+        width: 92.1%; 
+    }
+
+    .header-landing__title{
+        width: 96.9%;
+        margin: 326px auto 342px auto;
+    }
+
+    .header-landing__head{
+        background-position-y: 49%;
+        background-size: 320px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header-landing{
+        max-width: 767px;
+    }
+
+    .header-landing__container{
+        width: 91%;
+    }
+
+    .header-landing__title{
+        width: 100%;
+        font-size: 31px;
+        line-height: 39px;
+        letter-spacing: -0.03em;
+        margin: 207px auto 246px auto;
+    }
+
+    .header-landing__head{
+        background-size: 285px;
+        background-position-y: 43%;
+    }
+
+    .header-landing__register-button{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .header-landing__signin-button{
+        margin-left: 14px;
+        padding: 5px 9px 5px 9px;
+        background-color: #3DDC84;
+        border-radius: 3px;
+        border: none; 
+        outline: none;
+    }
+}
