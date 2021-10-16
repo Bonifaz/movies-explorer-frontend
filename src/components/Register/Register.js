@@ -12,9 +12,7 @@ export default class Register extends React.Component{
                     <div className="register__logo-box">
                         <img className="register__logo" src={logo} alt="Логотип"/> 
                     </div>
-
                     <h1 className="register__title">Добро пожаловать!</h1>
-
                     <div className="register__form-container">
                         <form className="register__form">
                             <div className="register__inputs">

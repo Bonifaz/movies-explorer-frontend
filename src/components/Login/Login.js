@@ -9,12 +9,13 @@ export default class Login extends React.Component{
     render(){
         return (
             <Form 
-            statusForm={true}
-            title={"Рады видеть!"}
-            button={"Войти"}
-            text={"Ещё не зарегистрированы?"}
-            link={"Регистрация"}
-            linkPath={"/sign-up"}
+                title={"Рады видеть!"}
+                button={"Войти"}
+                text={"Ещё не зарегистрированы?"}
+                link={"Регистрация"}
+                linkPath={"/sign-up"}
+                formType={this.props.formType}
+                submit={this.props.submit}
             />
         )
     }

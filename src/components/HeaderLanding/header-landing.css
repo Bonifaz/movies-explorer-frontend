@@ -54,6 +54,7 @@
     background-position: center;
     background-position-y: 39%;
     display: flex;
+    background-color: #073042;
 }
 
 .header-landing__title{

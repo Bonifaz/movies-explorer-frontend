@@ -15,11 +15,6 @@ export default class HeaderLanding extends React.Component{
                             <Link to="/sign-in"><button type="button" className="header-landing__signin-button">Войти</button></Link>
                         </div>
                     </div>
-
-                    <div className="header-landing__head">
-                        <h1 className="header-landing__title">Учебный проект студента факультета Веб-разработки.</h1>
-                    </div>
-
                 </div>
             </section>
         )

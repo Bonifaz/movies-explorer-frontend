@@ -10,9 +10,17 @@ export default class Movies extends React.Component{
     render(){
         return (
             <section className="Movies">
-                <Header/>
-                <SearhForm/>
-                <CardList savedMovies= {this.props.savedMovies}/>
+                <SearhForm 
+                    search = {this.props.submitSearch} 
+                    savedMovies ={this.props.savedMovies}
+                />
+                <CardList 
+                    movies={this.props.movies} 
+                    loading={this.props.loading} 
+                    savedMovies= {this.props.savedMovies}
+                    saveMovie = {this.props.saveMovie}
+                    deleteMovie = {this.props.deleteMovie}
+                />
                 <Footer/>
             </section>
         )

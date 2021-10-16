@@ -39,12 +39,14 @@
     background-color: transparent;
     border: none;
     text-align: right;
+    color: white;
 }
 
 .profile__email-input{
     background-color: transparent;
     border: none;
     text-align: right;
+    color: white;
 }
 
 .profile__name-input-label{
