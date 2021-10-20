@@ -20,6 +20,22 @@
     padding: 89px 0 115px 0;
 }
 
+.profile__error{
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    color: #EE3465;
+    transform: translateY(-50px);
+}
+
+.profile__submit-message{
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    color: white;
+    transform: translateY(-50px);
+}
+
 .profile__inputs{
     display: flex;
     flex-direction: column;
@@ -39,12 +55,14 @@
     background-color: transparent;
     border: none;
     text-align: right;
+    color: white;
 }
 
 .profile__email-input{
     background-color: transparent;
     border: none;
     text-align: right;
+    color: white;
 }
 
 .profile__name-input-label{

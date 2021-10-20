@@ -1,0 +1,66 @@
+.header{
+    max-width: 1280px;
+    background-color: #073042;
+}
+
+.header__container{
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+}
+
+.header__func{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header__logo{
+    margin: 18px 0 18px 0;
+}
+
+.header__sign-reg-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.header__register-button:hover{
+    cursor: pointer;
+}
+
+.header__signin-button{
+    margin: 21px 0 21px 30px;
+    padding: 8px 20px 8px 20px;
+    background-color: #3DDC84;
+    border-radius: 3px;
+    border: none; 
+    outline: none;
+}
+
+.header__signin-button:hover{
+    cursor: pointer;
+}
+
+.header__head{
+    background-image: url(../images/pic__COLOR_landing-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 39%;
+    display: flex;
+}
+
+.header__title{
+    width: 64%;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    font-weight: 400;
+    margin: 184px auto 224px auto;
+}

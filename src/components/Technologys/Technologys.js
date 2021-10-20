@@ -6,7 +6,7 @@ export default class Technologys extends React.Component{
             <section className="technologys">
                 <div className="technologys__container">
 
-                    <h3 className="technologys__title">Технологии</h3>
+                    <h3 id="technologys" className="technologys__title">Технологии</h3>
                     <div className="technologys__line"></div>
 
                     <div className="technologys__info-box">

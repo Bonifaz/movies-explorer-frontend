@@ -6,7 +6,7 @@ export default class About extends React.Component{
             <section className="about">
                 <div className="about__container">
 
-                    <h2 className="about__title">О проекте</h2>                   
+                    <h2 className="about__title" id="about">О проекте</h2>                   
 
                     <div className="about__line"></div>
 
